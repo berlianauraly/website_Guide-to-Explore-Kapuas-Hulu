@@ -1,0 +1,92 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman';
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient(rgba(245, 245, 245, 0), rgba(250, 250, 250, 0)), url(images/sentarum.jpg);
+    background-size:cover;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    padding: 10ppx 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 110px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-bottom: 200px;   
+    margin-top: -30px;
+}
+
+body{   
+    background-color: whitesmoke;
+    }
+.nav-links{
+  display: flex;
+  justify-content: right;
+  align-items: right; 
+  height: 70px; 
+   width: 50%;
+   list-style-type: none;
+   padding-right: 50px;   
+   margin-top: -200px;
+}
+.li-nav{  
+    list-style-type: none;
+    width: 50%;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: right;
+}
+.a-navbar{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.hfhead{
+    display: flex;
+    justify-content: center;
+     list-style-type: none;
+     align-items: center;
+}
+.h1-header{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2-header{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -110px;
+    margin-bottom: 8px;
+}
+.h5-header{
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans';
+    font-size: 5;
+    margin-top: 10px;
+}
+.content{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: antiquewhite;
+    height: 125px;
+} 
